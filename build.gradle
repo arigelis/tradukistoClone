@@ -65,20 +65,20 @@ test {
 }
 
 nexusStaging {
-    packageGroup = "pl.allegro"
+    packageGroup = "arigelis"
 }
 
 modifyPom {
     project {
         name 'Tradukisto'
         description 'Small java library created to convert numbers to their word representations'
-        url 'https://github.com/allegro/tradukisto'
+        url 'https://github.com/arigelis/tradukistoClone'
         inceptionYear '2015'
 
         scm {
             url 'https://github.com/allegro/tradukisto'
-            connection 'scm:git@github.com:allegro/tradukisto.git'
-            developerConnection 'scm:git@github.com:allegro/tradukisto.git'
+            connection 'scm:git@github.com:arigelis/tradukistoClone.git'
+            developerConnection 'scm:git@github.com:arigelis/tradukistoClone.git'
         }
 
         licenses {
