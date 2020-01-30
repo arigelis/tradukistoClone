@@ -28,7 +28,7 @@ scmVersion {
 }
 
 project.version = scmVersion.version
-project.group = "arigelis"
+project.group = "pl.allegro.finance"
 
 repositories {
     mavenCentral()
@@ -65,20 +65,20 @@ test {
 }
 
 nexusStaging {
-    packageGroup = "arigelis"
+    packageGroup = "pl.allegro"
 }
 
 modifyPom {
     project {
         name 'Tradukisto'
         description 'Small java library created to convert numbers to their word representations'
-        url 'https://github.com/arigelis/tradukistoClone'
+        url 'https://github.com/allegro/tradukisto'
         inceptionYear '2015'
 
         scm {
             url 'https://github.com/allegro/tradukisto'
-            connection 'scm:git@github.com:arigelis/tradukistoClone.git'
-            developerConnection 'scm:git@github.com:arigelis/tradukistoClone.git'
+            connection 'scm:git@github.com:allegro/tradukisto.git'
+            developerConnection 'scm:git@github.com:allegro/tradukisto.git'
         }
 
         licenses {
